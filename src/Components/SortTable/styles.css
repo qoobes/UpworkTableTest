@@ -1,0 +1,50 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+td {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.check-complete {
+  color: green;
+}
+
+.check-error {
+  color: red;
+}
+
+.check-incomplete {
+  color: olive;
+}
+
+.icon-button {
+  border: none;
+  cursor: pointer;
+  transition: filter 100ms;
+  margin-left: 0.4rem;
+}
+
+.icon-button:hover {
+  filter: brightness(0.9);
+}
+
+.icon-button:active {
+  filter: brightness(0.8);
+}
